@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Семантична розмітка</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Мій Сайт</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Головна</a></li>
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Ласкаво просимо на наш сайт!</h2>
+        <p>
+          Тут ви знайдете багато цікавої інформації про все, що вас цікавить.
+        </p>
+        <img
+          src="https://i.pinimg.com/564x/8a/42/39/8a42395b23615e0f7f65a439fa64f087.jpg"
+          alt="Опис картинки"
+        />
+      </section>
+
+      <section>
+        <h2>Форма зв'язку</h2>
+        <form action="#" method="post">
+          <label for="Ван Гог">Ім'я:</label>
+          <input type="text" id="ім'я" name="ім'я" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="повідомлення">Повідомлення:</label>
+          <textarea
+            id="повідомлення"
+            name="повідомлення"
+            rows="4"
+            required
+          ></textarea>
+
+          <input type="submit" value="Надіслати" />
+        </form>
+      </section>
+
+      <section>
+        <h2>Відео з YouTube "Як намалювати картину поетапно акрилом"</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/watch?v=6xFBSLpeNyk"
+          frameborder="1"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Мій Сайт. Усі права захищені.</p>
+    </footer>
+  </body>
+</html>
