@@ -10,6 +10,7 @@ h1 {
 }
  section {
     background-color: rgb(0,118,192);
+    position: relative;
     width: 1292px;
     margin: 0 auto;
     padding: 20px;
@@ -23,7 +24,8 @@ h1 {
     text-decoration: none;
 }
 
-div {
+div.block {
+    position: relative;
     background-color: #fff;
     width: 300px;
     text-align: center;
@@ -33,4 +35,30 @@ div {
     margin-bottom: 20px;
 }
 
+.add-to-fav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box .item-center {
+    width: 0px;
+}
+
+.box .item-left, .box .item-right {
+    width: 0px;
+}
+
+.box .item-bottom-center {
+    width: 160px;
+}
+
+.box .item-bottom-left, .box .item-bottom-right {
+    width: 70px;
+}
