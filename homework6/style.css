@@ -16,7 +16,7 @@ h1 {
     padding: 20px;
 }
 
- a {
+ .link {
     background-color: rgb(13,13,214);
     color: #fff;
     padding: 10px 25px;
@@ -24,7 +24,7 @@ h1 {
     text-decoration: none;
 }
 
-div.block {
+.block {
     position: relative;
     background-color: #fff;
     width: 300px;
@@ -37,9 +37,22 @@ div.block {
 
 .add-to-fav {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 20px;
+  right: 25px;
 }
+
+.stickers-icon {
+  position: absolute;
+  left: 30px;
+  bottom: 18px;
+}
+
+.add-to-balance {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
 
 .box {
     display: flex;
