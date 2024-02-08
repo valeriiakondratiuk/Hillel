@@ -24,15 +24,14 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  font-size: 40px;
 }
 html,
 body {
   height: 100%;
   line-height: 1;
-  background: #ca9191;
+  background: #fff;
   font-size: 16px;
-  color: #423c3c;
+  color: #000;
   font-weight: 400;
   font-family: Roboto;
 }
